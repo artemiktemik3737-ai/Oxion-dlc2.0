@@ -21,7 +21,7 @@ jobs:
           gradle-version: '8.11.1'
 
       - name: Build with Gradle
-        run: ./gradlew build
+        run: gradle build
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
