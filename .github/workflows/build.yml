@@ -27,6 +27,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: oxion-dlc-jar
-          path:path:path: |
-  build/libs/*.jar
-  build/libs/ |
+          path:path:path:- name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: oxion-dlc-jar
+          path: build/libs/
+
