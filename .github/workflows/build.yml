@@ -1,3 +1,4 @@
+
 name: Build Mod
 
 on: [push]
@@ -27,5 +28,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: oxion-dlc-jar
-          path: build/libs/*.jar
+          path: '**/build/libs/*.jar'
 
